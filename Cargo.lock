@@ -225,6 +225,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "ca9f76bdd86dfc8d64eecb0484d02ad4cf0e6767d4682f686d1b0580b6c27f82"
 
 [[package]]
+name = "e2e"
+version = "0.1.0"
+dependencies = [
+ "cucumber",
+ "futures",
+]
+
+[[package]]
 name = "either"
 version = "1.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -806,14 +814,6 @@ dependencies = [
  "quote",
  "sealed 0.3.0",
  "syn",
-]
-
-[[package]]
-name = "t"
-version = "0.1.0"
-dependencies = [
- "cucumber",
- "futures",
 ]
 
 [[package]]
